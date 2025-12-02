@@ -9,11 +9,12 @@ The dataset we will be using for this project is the “Used Cars Dataset,” pu
 [ https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data/data ]\
 The dataset contains nearly 427,000 unique Craigslist listings of used cars for sale. Each listing is described by 25 features of different data types, including our target feature `price`, `year`, `manufacturer`, `transmission`, `title_status`, `odometer`, etc. This is a valuable data mining exercise as the chosen dataset is large, high-dimensional, and "messy," reflecting real-world data imperfections.
 ## Project File Structure
+```
 used_car_price_prediction/
 │
 ├── data/
-│   ├── raw/                 # Original Kaggle dataset
-│   └── processed/           # Cleaned dataset 
+│   ├── raw/                     # Original Kaggle dataset
+│   └── processed/               # Cleaned dataset
 │
 ├── notebooks/
 │   ├── 01_data_cleaning_preprocessing.ipynb
@@ -23,9 +24,10 @@ used_car_price_prediction/
 │
 ├── results/
 │   ├── figures/
-│   │   ├── eda_plots/       # EDA graphs
-│   │   └── modeling_plots/  # Model performance plots
-│   ├── metrics/             # Model metrics
+│   │   ├── eda_plots/           # EDA visualizations
+│   │   └── modeling_plots/      # Model performance plots
+│   └── metrics/                 # Model metric JSON/CSVs
 │
 ├── README.md
 └── .gitignore
+```
