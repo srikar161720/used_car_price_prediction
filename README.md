@@ -26,7 +26,7 @@ used_car_price_prediction/
 │   ├── figures/
 │   │   ├── eda_plots/           # EDA visualizations
 │   │   └── modeling_plots/      # Model performance plots
-│   └── metrics/                 # Model metric JSON/CSVs
+│   └── metrics/                 # Model metric 
 │
 ├── README.md
 └── .gitignore
