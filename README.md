@@ -2,7 +2,7 @@
 > CSC 6740 Data Mining\
 > Final Project\
 > Members: Srikar Pottabathula, Monique Gaye
-## **Abstract**
+## **Description**
 The project's core objective is to apply data mining techniques to a large, real-world dataset of used car listings to identify key factors that determine a vehicle's value. The benefit of this analysis is to create a practical valuation tool that can provide transparent pricing and decision support for both buyers and sellers in the complex, variable second-hand automotive market.
 ## **Dataset**
 The dataset we will be using for this project is the “Used Cars Dataset,” publicly available on Kaggle:\
