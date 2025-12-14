@@ -13,8 +13,8 @@ The dataset contains nearly 427,000 unique Craigslist listings of used cars for 
 used_car_price_prediction/
 │
 ├── data/
-│   ├── raw/                     # Original Kaggle dataset
-│   └── processed/               # Cleaned dataset
+│   ├── raw/                          # Original Kaggle dataset
+│   └── processed/                    # Cleaned dataset
 │
 ├── notebooks/
 │   ├── 01_data_cleaning_preprocessing.ipynb
@@ -24,10 +24,12 @@ used_car_price_prediction/
 │
 ├── results/
 │   ├── figures/
-│   │   ├── eda_plots/           # EDA visualizations
-│   │   └── modeling_plots/      # Model performance plots
-│   └── metrics/                 # Model metric 
+│   │   ├── data_preprocessing_plots/ # Data Cleaning visualizations
+│   │   ├── eda_plots/                # EDA visualizations
+│   │   └── modeling_plots/           # Model performance plots
+│   └── metrics/                      # Model performance metrics 
 │
+├── CSC 6740 Final Project Report.pdf # Final Project Report
 ├── README.md
 └── .gitignore
 ```
